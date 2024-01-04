@@ -53,6 +53,7 @@ here all we have to do is use another switch, for example:  `set_vol (number) ` 
 you can find all available switches [here](https://github.com/thokis/SimpleDFPlayerMini-for-MicroPython/wiki/API)
 
 #### Hardwer 
+first you need a  DFPlayer Mini MP3 Player and an sd card. name the desired audio files on the sd card so that they are always 0001.mp3 0002.mp3 0003.mp3 etc.
 
 ### Serial
 Serial communication must be enabled on the raspberry pi. for this we need the command ````sudo raspi-config````.
