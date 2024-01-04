@@ -12,7 +12,10 @@ sudo apt-get install python-pigpio python3-pigpio
 ````
 then download the files to the printer
 ````
-cd ~ && https://github.com/Tompudex/Printer-Sound-System
+cd ~ && git clone https://github.com/Tompudex/Printer-Sound-System
+cd Printer-Sound-System
+chmod +x AI.sh
+chmod +x AI.py
 ````
 then, if it hasn't been there yet, install the [Shell-Gcode-Command](https://github.com/dw-0/kiauh/blob/095823bf288029a2d8e147c275b0c3b8549edd57/docs/gcode_shell_command.md#L1) add-on with [Kiauh](https://github.com/dw-0/kiauh/tree/master)
 
