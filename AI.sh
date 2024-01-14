@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 AI.py "$@"
+python3 /home/pi/Printer-Sound-System/AI.py "$@"
